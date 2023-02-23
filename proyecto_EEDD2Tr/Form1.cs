@@ -11,5 +11,20 @@ namespace proyecto_EEDD2Tr
         {
 
         }
+
+        private void tablaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void reaccionesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void compuestosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
