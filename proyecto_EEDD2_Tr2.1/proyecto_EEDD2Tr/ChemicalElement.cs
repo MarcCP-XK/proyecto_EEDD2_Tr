@@ -25,5 +25,10 @@ namespace proyecto_EEDD2Tr
             this.protons = protons;
             this.electrons = electrons;
         }
+
+        public void nothing()
+        {
+            //does nothing
+        }
     }
 }
