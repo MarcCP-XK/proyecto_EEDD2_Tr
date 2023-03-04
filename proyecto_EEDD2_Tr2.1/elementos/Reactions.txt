@@ -1,0 +1,52 @@
+0
+Electrolysis of water
+Decomposition
+0
+1
+7732-18-5
+2
+2
+1333-74-0,7782-44-7
+2,1
+323.45
+156.03
+99.32
+1
+Synthesis of sulfuric acid
+Synthesis
+1
+2
+7446-11-9,7732-18-5
+1,1
+1
+7664-93-9
+1
+298.36
+94.49
+45.89
+2
+Combustion of methane
+Redox
+1
+2
+74-82-8,7782-44-7
+1,2
+2
+124-38-9,7732-18-5
+1,2
+328.83
+185.39
+84.56
+3
+Generation of calcium sulfate dihydrate
+Acid-base
+1
+2
+7664-93-9,1305-62-0
+1,1
+2
+7778-18-9,7732-18-5
+1,2
+364.93
+63.91
+75.34
