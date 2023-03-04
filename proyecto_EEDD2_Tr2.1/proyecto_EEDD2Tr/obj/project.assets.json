@@ -8,23 +8,24 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Luismi\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\marcc\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Luismi\\Source\\Repos\\MarcCP-XK\\proyecto_EEDD2_Tr\\proyecto_EEDD2_Tr2.0\\proyecto_EEDD2Tr\\proyecto_EEDD2Tr.csproj",
+      "projectUniqueName": "C:\\Users\\marcc\\source\\repos\\MarcCP-XK\\proyecto_EEDD2_Tr0.3\\proyecto_EEDD2_Tr\\proyecto_EEDD2_Tr2.1\\proyecto_EEDD2Tr\\proyecto_EEDD2Tr.csproj",
       "projectName": "proyecto_EEDD2Tr",
-      "projectPath": "C:\\Users\\Luismi\\Source\\Repos\\MarcCP-XK\\proyecto_EEDD2_Tr\\proyecto_EEDD2_Tr2.0\\proyecto_EEDD2Tr\\proyecto_EEDD2Tr.csproj",
-      "packagesPath": "C:\\Users\\Luismi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Luismi\\Source\\Repos\\MarcCP-XK\\proyecto_EEDD2_Tr\\proyecto_EEDD2_Tr2.0\\proyecto_EEDD2Tr\\obj\\",
+      "projectPath": "C:\\Users\\marcc\\source\\repos\\MarcCP-XK\\proyecto_EEDD2_Tr0.3\\proyecto_EEDD2_Tr\\proyecto_EEDD2_Tr2.1\\proyecto_EEDD2Tr\\proyecto_EEDD2Tr.csproj",
+      "packagesPath": "C:\\Users\\marcc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\marcc\\source\\repos\\MarcCP-XK\\proyecto_EEDD2_Tr0.3\\proyecto_EEDD2_Tr\\proyecto_EEDD2_Tr2.1\\proyecto_EEDD2Tr\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Luismi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\marcc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -68,7 +69,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

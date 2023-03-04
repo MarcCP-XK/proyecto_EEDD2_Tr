@@ -29,84 +29,85 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            pictureBox1 = new PictureBox();
-            menuStrip1 = new MenuStrip();
-            menuToolStripMenuItem = new ToolStripMenuItem();
-            tablaToolStripMenuItem = new ToolStripMenuItem();
-            reaccionesToolStripMenuItem = new ToolStripMenuItem();
-            compuestosToolStripMenuItem = new ToolStripMenuItem();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            menuStrip1.SuspendLayout();
-            SuspendLayout();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tablaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reaccionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.compuestosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.menuStrip1.SuspendLayout();
+            this.SuspendLayout();
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(15, 34);
-            pictureBox1.Margin = new Padding(4, 4, 4, 4);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(1450, 646);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
-            pictureBox1.Click += pictureBox1_Click;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(10, 20);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(1015, 388);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // menuStrip1
             // 
-            menuStrip1.ImageScalingSize = new Size(20, 20);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { menuToolStripMenuItem });
-            menuStrip1.Location = new Point(0, 0);
-            menuStrip1.Name = "menuStrip1";
-            menuStrip1.Padding = new Padding(8, 2, 0, 2);
-            menuStrip1.Size = new Size(1480, 33);
-            menuStrip1.TabIndex = 1;
-            menuStrip1.Text = "menuStrip1";
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.menuToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(6, 1, 0, 1);
+            this.menuStrip1.Size = new System.Drawing.Size(1036, 24);
+            this.menuStrip1.TabIndex = 1;
+            this.menuStrip1.Text = "menuStrip1";
             // 
             // menuToolStripMenuItem
             // 
-            menuToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { tablaToolStripMenuItem, reaccionesToolStripMenuItem, compuestosToolStripMenuItem });
-            menuToolStripMenuItem.Name = "menuToolStripMenuItem";
-            menuToolStripMenuItem.Size = new Size(73, 29);
-            menuToolStripMenuItem.Text = "Menu";
+            this.menuToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tablaToolStripMenuItem,
+            this.reaccionesToolStripMenuItem,
+            this.compuestosToolStripMenuItem});
+            this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
+            this.menuToolStripMenuItem.Size = new System.Drawing.Size(50, 22);
+            this.menuToolStripMenuItem.Text = "Menu";
             // 
             // tablaToolStripMenuItem
             // 
-            tablaToolStripMenuItem.Name = "tablaToolStripMenuItem";
-            tablaToolStripMenuItem.Size = new Size(215, 34);
-            tablaToolStripMenuItem.Text = "Tabla";
-            tablaToolStripMenuItem.Click += tablaToolStripMenuItem_Click;
+            this.tablaToolStripMenuItem.Name = "tablaToolStripMenuItem";
+            this.tablaToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.tablaToolStripMenuItem.Text = "Tabla";
             // 
             // reaccionesToolStripMenuItem
             // 
-            reaccionesToolStripMenuItem.Name = "reaccionesToolStripMenuItem";
-            reaccionesToolStripMenuItem.Size = new Size(215, 34);
-            reaccionesToolStripMenuItem.Text = "Reacciones";
-            reaccionesToolStripMenuItem.Click += reaccionesToolStripMenuItem_Click;
+            this.reaccionesToolStripMenuItem.Name = "reaccionesToolStripMenuItem";
+            this.reaccionesToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.reaccionesToolStripMenuItem.Text = "Reacciones";
             // 
             // compuestosToolStripMenuItem
             // 
-            compuestosToolStripMenuItem.Name = "compuestosToolStripMenuItem";
-            compuestosToolStripMenuItem.Size = new Size(215, 34);
-            compuestosToolStripMenuItem.Text = "Compuestos";
-            compuestosToolStripMenuItem.Click += compuestosToolStripMenuItem_Click;
+            this.compuestosToolStripMenuItem.Name = "compuestosToolStripMenuItem";
+            this.compuestosToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.compuestosToolStripMenuItem.Text = "Compuestos";
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1480, 695);
-            Controls.Add(menuStrip1);
-            Controls.Add(pictureBox1);
-            MainMenuStrip = menuStrip1;
-            Margin = new Padding(4, 4, 4, 4);
-            Name = "Form1";
-            Text = "Form1";
-            Load += Form1_Load;
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            menuStrip1.ResumeLayout(false);
-            menuStrip1.PerformLayout();
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1036, 417);
+            this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.pictureBox1);
+            this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load_1);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion

@@ -12,9 +12,7 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 namespace proyecto_EEDD2Tr
 {
     public partial class Form2 : Form
-    {
-
-        private StreamWriter sw;
+    { 
         public Form2()
         {
             InitializeComponent();
@@ -41,12 +39,18 @@ namespace proyecto_EEDD2Tr
             //File.ReadAllLines(fileName);
 
             StreamReader reader = new StreamReader(fileName);
-            for (string line = reader.ReadLine(); line != null; line = reader.ReadLine())
+            string line;
+            string[] values;
+            StringBuilder sb = new StringBuilder();
+            for (line = reader.ReadLine(); line != null; line = reader.ReadLine())
             {
-                    string[] values = line.Split(',');
-                    values[0] += line + "\n";
-                    textBox1.Text = values[0];
+                values = line.Split(',');
+                for(int i = 0; i < values.Length; i++)
+                {
+                    sb.Append(values[i]);
+                }
             }
+            textBox1.Text = sb.ToString();
             reader.Close();
         }
     }
